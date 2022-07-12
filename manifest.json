@@ -1,9 +1,8 @@
 {
-    "manifest_version": "2",
-    "api_version": "1",
-    "name": "LocalListeners",
-    "description": "Local listeners extension",
-    "developer_name": "Michael Sandler",
+    "required_api_version": "^2.0.0",
+    "name": "Listeners",
+    "description": "Display local listeners in ULauncher",
+    "developer_name": "Michael Sandler & SIMULATAN",
     "icon": "images/icon.png",
     "options": {
         "query_debounce": 0.05
@@ -35,7 +34,7 @@
             "type": "input",
             "name": "Browser Executable",
             "description": "Path to the browser executable which will open a local listener address",
-            "default_value": "google-chrome-stable"
+            "default_value": "firefox"
         }
     ]
 }
